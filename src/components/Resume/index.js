@@ -1,6 +1,5 @@
-
-import ResumePdf from '../../assets/vhivestate-resume.pdf'
 import React from 'react';
+import ResumePdf from '../../assets/vhivestate-resume.pdf'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FaDownload} from 'react-icons/fa';
 
