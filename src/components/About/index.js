@@ -1,7 +1,7 @@
 import React from 'react';
 import Photo from '../../assets/photo/portfolio.jpg'
 import '../../index.css'
-import {BsArrowDownCircle} from 'react-icons/bs'
+// import {BsArrowDownCircle} from 'react-icons/bs'
 
 
 
@@ -12,8 +12,8 @@ function About() {
     <header id="header" className="hero">
     <p className="hero-intro">Hello, I&rsquo;m</p> 
             <h1 className="hero-heading">V!</h1>
-            <a href="#intro">
-                <BsArrowDownCircle className='headerIcon'/> </a>
+            {/* <a href="#intro">
+                <BsArrowDownCircle className='headerIcon'/> </a> */}
         </header>
         <h1 id='intro'>Meet the Developer</h1>
     <section id="abtSec" className='aboutSec'>
