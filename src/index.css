@@ -175,9 +175,9 @@ font-weight: bold;
 
 /* HEADER DIV */
 .headerIcon {
-  font-size: 90px;
-  padding: 20px;
-  color: #FFCF33;
+  font-size: 70px;
+  color: #ffffff;
+  text-shadow: 0 0 35px white,  0 0 0px;
 }
 .hero {
 	/* Layout Declrations */
