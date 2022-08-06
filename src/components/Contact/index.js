@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helper';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Button } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'reactstrap';
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -61,10 +61,10 @@ function ContactForm() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
                 )}
-            <btn     
+            <Button     
             color="warning"
             size="lg"
-            type="submit">Submit</btn>
+            type="submit">Submit</Button>
           </form>
           {/* <img className='pngMail' src={mailPng}></img> */}
           <h3 className='connect'>Connect with me:</h3>

@@ -1,6 +1,7 @@
-import React from 'react';
+
 import ResumePdf from '../../assets/vhivestate-resume.pdf'
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import {FaDownload} from 'react-icons/fa';
 
 
@@ -55,10 +56,10 @@ function Resume() {
       <div>
       </div>
       <div className='download'>
-        {/* <a href={ResumePdf} download="vhivestate-resume.pdf">
-        <FaDownload/>
+        <a href={ResumePdf} download="vhivestate-resume.pdf">
+        
             download resume 
-        </a> */}
+        </a>
         </div>
       </section>
     );
